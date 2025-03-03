@@ -33,7 +33,9 @@ WoodenDuck - Similar to DecoyDuck.
 
 2. Interfaces and Implementations
    
+   
 SwimBehavior (Interface)
+
 
 void swim()
 
@@ -45,7 +47,9 @@ Float - Defines floating behavior.
 
 Drown - Defines ducks that sink.
 
+
 FlyBehavior (Interface)
+
 
 void fly()
 
@@ -55,8 +59,12 @@ Fly - Defines normal flying behavior.
 
 NotFly - Defines ducks that cannot fly.
 
-5. Main Class (DuckSimulator)
+3. Main Class (DuckSimulator)
+   
 Creates different types of ducks.
+
 Assigns appropriate FlyBehavior and SwimBehavior to each duck.
+
 Calls performSwim() and performFly() to demonstrate their behaviors.
+
 Dynamically changes behaviors using setSwimBehavior() and setFlyBehavior().
